@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\OlaMundo\\OlaMundo.csproj": {}
+    "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\TiposVarios\\TiposVarios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\OlaMundo\\OlaMundo.csproj": {
+    "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\TiposVarios\\TiposVarios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\OlaMundo\\OlaMundo.csproj",
-        "projectName": "OlaMundo",
-        "projectPath": "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\OlaMundo\\OlaMundo.csproj",
+        "projectUniqueName": "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\TiposVarios\\TiposVarios.csproj",
+        "projectName": "TiposVarios",
+        "projectPath": "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\TiposVarios\\TiposVarios.csproj",
         "packagesPath": "C:\\Users\\rafil\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\OlaMundo\\obj\\",
+        "outputPath": "C:\\Users\\rafil\\Desktop\\PastaPSI\\Semana01\\TiposVarios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rafil\\AppData\\Roaming\\NuGet\\NuGet.Config"
