@@ -1,0 +1,13 @@
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\bin\Debug\netcoreapp3.1\OlaMundo.exe
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\bin\Debug\netcoreapp3.1\OlaMundo.deps.json
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\bin\Debug\netcoreapp3.1\OlaMundo.runtimeconfig.json
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\bin\Debug\netcoreapp3.1\OlaMundo.runtimeconfig.dev.json
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\bin\Debug\netcoreapp3.1\OlaMundo.dll
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\bin\Debug\netcoreapp3.1\OlaMundo.pdb
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\obj\Debug\netcoreapp3.1\OlaMundo.csprojAssemblyReference.cache
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\obj\Debug\netcoreapp3.1\OlaMundo.AssemblyInfoInputs.cache
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\obj\Debug\netcoreapp3.1\OlaMundo.AssemblyInfo.cs
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\obj\Debug\netcoreapp3.1\OlaMundo.csproj.CoreCompileInputs.cache
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\obj\Debug\netcoreapp3.1\OlaMundo.dll
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\obj\Debug\netcoreapp3.1\OlaMundo.pdb
+C:\Users\rafil\desktop\PastaPSI\Semana01\OlaMundo\obj\Debug\netcoreapp3.1\OlaMundo.genruntimeconfig.cache

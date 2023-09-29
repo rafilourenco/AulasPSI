@@ -1,0 +1,13 @@
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\bin\Debug\netcoreapp3.1\Argumentos.exe
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\bin\Debug\netcoreapp3.1\Argumentos.deps.json
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\bin\Debug\netcoreapp3.1\Argumentos.runtimeconfig.json
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\bin\Debug\netcoreapp3.1\Argumentos.runtimeconfig.dev.json
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\bin\Debug\netcoreapp3.1\Argumentos.dll
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\bin\Debug\netcoreapp3.1\Argumentos.pdb
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\obj\Debug\netcoreapp3.1\Argumentos.csprojAssemblyReference.cache
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\obj\Debug\netcoreapp3.1\Argumentos.AssemblyInfoInputs.cache
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\obj\Debug\netcoreapp3.1\Argumentos.AssemblyInfo.cs
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\obj\Debug\netcoreapp3.1\Argumentos.csproj.CoreCompileInputs.cache
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\obj\Debug\netcoreapp3.1\Argumentos.dll
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\obj\Debug\netcoreapp3.1\Argumentos.pdb
+C:\Users\rafil\desktop\PastaPSI\Semana01\Argumentos\obj\Debug\netcoreapp3.1\Argumentos.genruntimeconfig.cache
