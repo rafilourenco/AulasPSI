@@ -17,6 +17,10 @@ namespace TiposVarios
             // Variavel Char
             char terceiro = 'A';
             Console.WriteLine(terceiro);
+
+            // Variavel Bool
+            bool quarto = true;
+            Console.WriteLine(quarto);
         }
     }
 }
