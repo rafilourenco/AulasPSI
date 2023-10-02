@@ -6,9 +6,9 @@ namespace VariasStrings
     {
         static void Main(string[] args)
         {
-            string pais "Angola";
+            string pais = "Angola";
             Console.WriteLine(pais);
-            string paisUni "Angola";
+            string paisUni = "Angola\u00A9";
             Console.WriteLine(paisUni);
         }
     }
