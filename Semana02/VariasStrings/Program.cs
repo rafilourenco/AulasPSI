@@ -10,6 +10,8 @@ namespace VariasStrings
             Console.WriteLine(pais);
             string paisUni = "Angola\u00A9";
             Console.WriteLine(paisUni);
+            string paisN = "Angola,\ngrande pais";
+            Console.WriteLine(paisN);
         }
     }
 }
