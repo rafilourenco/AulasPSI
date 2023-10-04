@@ -30,6 +30,8 @@ namespace VariasStrings
             Console.WriteLine(arren);
             string decimal1 = String.Format($"‘{dd:p1}’");
             Console.WriteLine(decimal1);
+
+            
             
         }
     }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariasStrings", "VariasStri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncDec", "IncDec\IncDec.csproj", "{A09A7F96-6F42-484F-8A8D-B12252457AC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cilindro", "Cilindro\Cilindro.csproj", "{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{A09A7F96-6F42-484F-8A8D-B12252457AC3}.Release|x64.Build.0 = Release|Any CPU
 		{A09A7F96-6F42-484F-8A8D-B12252457AC3}.Release|x86.ActiveCfg = Release|Any CPU
 		{A09A7F96-6F42-484F-8A8D-B12252457AC3}.Release|x86.Build.0 = Release|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Debug|x64.Build.0 = Debug|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Debug|x86.Build.0 = Debug|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Release|x64.ActiveCfg = Release|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Release|x64.Build.0 = Release|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Release|x86.ActiveCfg = Release|Any CPU
+		{8398EE6B-906F-4FF1-9C8F-3B83CD7D0298}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
