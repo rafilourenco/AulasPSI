@@ -6,6 +6,7 @@ namespace Cilindro
     {
         static void Main(string[] args)
         {
+            
             double altura;
             double raio;
             double volume;
@@ -16,15 +17,14 @@ namespace Cilindro
             Console.WriteLine("Insira o raio do Cilindro: ");
             raio = Convert.ToDouble ( Console.ReadLine() );
 
-            volume = 3.14 * (raio * raio) * altura;
+            volume = Math.PI * Math.Pow(raio , 2) * altura;
 
             Console.WriteLine("Aqui está o resultado do volume: ");
             Console.WriteLine(volume);
 
-            superficie = 2 * 3.14 * raio * (raio + altura);
+            superficie = 2 * Math.PI * raio * (raio + altura);
             Console.WriteLine("E agora a superficie: ");
             Console.WriteLine(superficie);
-
 
         }
     }
