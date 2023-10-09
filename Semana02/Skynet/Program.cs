@@ -18,7 +18,7 @@ namespace Skynet
                 Console.WriteLine("Perfeito!");
             }else{
                 Console.WriteLine("Então?");
-                c# exit console;
+
             }
 
             Console.WriteLine("Primeira pergunta:\nQuem foi Antonio Oliveira Salazar?");
@@ -67,6 +67,21 @@ namespace Skynet
                 Console.WriteLine("Tem " + pontos + " pontos!");
             }
 
+            switch(pontos){
+                case 0:
+                    Console.WriteLine("Não tem direito a um premio.");
+                   break;
+                case 1:
+                    Console.WriteLine("Tem direito a um premio pequeno.");
+                    break;
+                case 2:
+                    Console.WriteLine("Tem direito a um premio médio.");
+                    break;
+                case 3:
+                    Console.WriteLine("Tem direito a um premio grande.");
+                    break;
+
+            }
 
 
         }
