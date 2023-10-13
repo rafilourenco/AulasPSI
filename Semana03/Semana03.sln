@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Piramide", "Piramide\Piramide.csproj", "{5C7A7999-C052-4816-998A-CCD636C8BF25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omissor", "Omissor\Omissor.csproj", "{39179222-BFAB-42AF-82EF-0BECD6C50860}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiDimArray", "BiDimArray\BiDimArray.csproj", "{01CA95E2-A0EB-4F15-B3B1-F00639BD41D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{5C7A7999-C052-4816-998A-CCD636C8BF25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C7A7999-C052-4816-998A-CCD636C8BF25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C7A7999-C052-4816-998A-CCD636C8BF25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39179222-BFAB-42AF-82EF-0BECD6C50860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39179222-BFAB-42AF-82EF-0BECD6C50860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39179222-BFAB-42AF-82EF-0BECD6C50860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39179222-BFAB-42AF-82EF-0BECD6C50860}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CA95E2-A0EB-4F15-B3B1-F00639BD41D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CA95E2-A0EB-4F15-B3B1-F00639BD41D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CA95E2-A0EB-4F15-B3B1-F00639BD41D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CA95E2-A0EB-4F15-B3B1-F00639BD41D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
