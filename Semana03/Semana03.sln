@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Omissor", "Omissor\Omissor.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiDimArray", "BiDimArray\BiDimArray.csproj", "{01CA95E2-A0EB-4F15-B3B1-F00639BD41D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPCPerks", "NPCPerks\NPCPerks.csproj", "{20C1240C-99B1-443D-96B3-66E6CF703938}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{01CA95E2-A0EB-4F15-B3B1-F00639BD41D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01CA95E2-A0EB-4F15-B3B1-F00639BD41D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01CA95E2-A0EB-4F15-B3B1-F00639BD41D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C1240C-99B1-443D-96B3-66E6CF703938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C1240C-99B1-443D-96B3-66E6CF703938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C1240C-99B1-443D-96B3-66E6CF703938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C1240C-99B1-443D-96B3-66E6CF703938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
