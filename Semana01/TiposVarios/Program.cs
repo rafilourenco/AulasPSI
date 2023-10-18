@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace TiposVarios
 {
@@ -6,6 +7,7 @@ namespace TiposVarios
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             // Variavel Inteira
             int primeiro = 1;
             Console.WriteLine(primeiro);
