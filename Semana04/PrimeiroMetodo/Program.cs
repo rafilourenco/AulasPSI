@@ -4,9 +4,21 @@ namespace PrimeiroMetodo
 {
     class Program
     {
-        static void Main(string[] args)
+
+        private static void ContarAte10(){
+
+
+            for(int i = 1;i <=10;i++){
+                Console.WriteLine(i);
+            }
+            Console.WriteLine();
+
+        }
+
+        private static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            ContarAte10();
+            ContarAte10();
         }
     }
 }
