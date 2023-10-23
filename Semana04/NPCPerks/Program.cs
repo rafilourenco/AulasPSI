@@ -3,7 +3,13 @@
 namespace NPCPerks
 {
     class Program
-    {
+    {   
+        private static void raca(){
+
+
+
+        }
+        
         static void Main(string[] args)
         {   
             int nrnpc = 0;
