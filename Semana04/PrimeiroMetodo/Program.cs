@@ -24,13 +24,32 @@ namespace PrimeiroMetodo
 
         }
 
-        private static void Main(string[] args)
+        static void Main(string[] args)
         {
             // ContarAte10();
+            /*
             int variavel;
             Console.Write("Defina o valor da variavel int: ");
             variavel = Convert.ToInt32( Console.ReadLine());
             ContarAteN(variavel);
+            */
+
+            double base1;
+            double expoente;
+            double resultado = 1;
+
+            Console.WriteLine("Introduza dois números reais.");
+
+            Console.WriteLine("Introduza o primeiro número: ");
+            base1 = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Introduza o segundo número: ");
+            expoente = Convert.ToDouble(Console.ReadLine());
+
+            for(int i = 1; i<= expoente;i++){
+                resultado *= base1;
+            }
+
+            Console.WriteLine(resultado);
         }
-    }
+    }    
 }
