@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NPCPerks", "NPCPerks\NPCPer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeiroMetodo", "PrimeiroMetodo\PrimeiroMetodo.csproj", "{06DBC644-9120-4156-8433-DF1A43A81D75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{AAFDAC46-020A-4175-B447-95D6F4CE6B31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{06DBC644-9120-4156-8433-DF1A43A81D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06DBC644-9120-4156-8433-DF1A43A81D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06DBC644-9120-4156-8433-DF1A43A81D75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFDAC46-020A-4175-B447-95D6F4CE6B31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFDAC46-020A-4175-B447-95D6F4CE6B31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFDAC46-020A-4175-B447-95D6F4CE6B31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFDAC46-020A-4175-B447-95D6F4CE6B31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

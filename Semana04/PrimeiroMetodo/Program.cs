@@ -24,32 +24,37 @@ namespace PrimeiroMetodo
 
         }
 
+        private static void ContarAteN(int n1, int n2){
+
+
+                for(int i = n1; i <= n2;i++){
+                    Console.WriteLine(i);
+                }
+        }
+
         static void Main(string[] args)
         {
             // ContarAte10();
-            /*
+
             int variavel;
-            Console.Write("Defina o valor da variavel int: ");
-            variavel = Convert.ToInt32( Console.ReadLine());
-            ContarAteN(variavel);
-            */
+            string resposta;
 
-            double base1;
-            double expoente;
-            double resultado = 1;
+            Console.WriteLine("Deseja introduzir 1 número, ou 2?");
+            resposta = Console.ReadLine();
 
-            Console.WriteLine("Introduza dois números reais.");
-
-            Console.WriteLine("Introduza o primeiro número: ");
-            base1 = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Introduza o segundo número: ");
-            expoente = Convert.ToDouble(Console.ReadLine());
-
-            for(int i = 1; i<= expoente;i++){
-                resultado *= base1;
+            if(resposta == "1"){
+                ContarAteN(5);
+            }else if(resposta == "2"){
+                Console.Write("Defina o valor da variavel int 1: ");
+                int n1 = Convert.ToInt32( Console.ReadLine());
+                Console.Write("Defina o valor da variavel int 2: ");
+                int n2 = Convert.ToInt32( Console.ReadLine());
+                ContarAteN(n1,n2);
+            }else{
+                Console.WriteLine("Apenas pode escolher 1 ou 2!");
             }
 
-            Console.WriteLine(resultado);
+            
         }
     }    
 }
