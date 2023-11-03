@@ -3,7 +3,24 @@
 namespace ValorEReferencia
 {
     internal class Program
-    {
+    {   
+
+        private static void Metodo(int valor, int[] referencia){
+
+            Console.WriteLine(" ");
+            Console.WriteLine(valor);
+            Console.WriteLine(" ");
+            
+            Console.Write("[");
+            for(int i = 0; i < referencia.Length;i++){
+                
+                Console.Write(referencia[i]);
+                
+            }
+            Console.Write("]");
+            Console.WriteLine(" ");
+        }
+        
         static void Main(string[] args)
         {
             int a = 5;
@@ -14,19 +31,11 @@ namespace ValorEReferencia
 
             
             
-            for(int i = 0; i < array1.Length;i++){
-                Console.WriteLine(array1[i]);
-            }
+            Metodo(a, array1);
             array1[1] = a;
-            Console.WriteLine(" ");
-            for(int i = 0; i < array2.Length;i++){
-                Console.WriteLine(array2[i]);
-            }
+            Metodo(a, array2);
             array2 = new int[] {6,7,8};
-            Console.WriteLine(" ");
-            for(int i = 0; i < array1.Length;i++){
-                Console.WriteLine(array1[i]);
-            }
+            Metodo(a, array1);
 
         }
     }
