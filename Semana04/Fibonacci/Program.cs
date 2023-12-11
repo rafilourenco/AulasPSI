@@ -16,9 +16,25 @@ namespace Fibonacci
         }
 
         static void Main(string[] args)
-        {
+        {   
+            int n;
+            int fib;
 
-            Console.WriteLine(Fibonacci(9));
+
+
+
+            if(args.Length > 0 ){
+                n = Convert.ToInt32(args[0]);
+            }else{
+                Console.WriteLine("Vou procurar um número na sequência de Fibonacci");
+                Console.Write("Indica a posição do número: ");
+                n = Convert.ToInt32(Console.ReadLine());
+            }
+
+            fib = Fibonacci(n);
+
+            Console.WriteLine($"Nº da posição {n} é: {fib}");
+            
         }
     }
 }

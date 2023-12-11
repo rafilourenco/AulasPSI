@@ -7,32 +7,35 @@ namespace BCPropriedades
         static void Main(string[] args)
         {
             //Criar instancias de cor
-            Cor cor01 = new Cor(255, 0, 0);
-            Cor cor02 = new Cor(0, 255, 0);
-            Cor cor03 = new Cor(0, 0, 255);
-            Cor cor04 = new Cor(255, 255, 0);
+
+            Cor vermelho = new Cor(255, 0, 0);
+            Cor verde = new Cor(0, 255, 0);
+            Cor azul = new Cor(0, 0, 255);
+            Cor amarelo = new Cor(255, 255, 0);
+
+
+
+            int quant;
+            int Qvezes;
+            Bola[] arrayBola;
+
+
+            Console.WriteLine("Introduza a quantidade de bolas: ");
+            quant = Convert.ToInt32(Console.ReadLine());
+            arrayBola = new Bola[quant];
 
             //Criar algumas bolas
             Bola bola01 = new Bola(cor01, 5);
-            Bola bola02 = new Bola(cor02, 10);
-            Bola bola03 = new Bola(cor03, 15);
-            Bola bola04 = new Bola(cor04, 20);
+
 
 
             //Atirar as bolas várias vezes
 
-            bola01.Atirar();
-            bola01.Atirar();
-            bola02.Atirar();
-            bola02.Atirar();
-            bola02.Atirar();
-            bola02.Atirar();
-            bola02.Atirar();
-            bola03.Atirar();
-            bola04.Atirar();
-            bola04.Atirar();
-            bola04.Atirar();
-            bola04.Atirar();
+            Console.WriteLine("Quantas vezes deseja atirar as bolas?");
+            Qvezes = Convert.ToInt32(Console.ReadLine());
+            for(int i = 0; i < Qvezes; i++){
+                .Atirar();
+            }
             
             //Rebentar algumas das bolas
 
