@@ -12,12 +12,15 @@ namespace Escrever01
             string input;
             string[] inputs = new string[10];
 
+
+            Console.WriteLine("Pronto para escrever: ");
             do{
                 
                 input = Console.ReadLine();
                 if(input != ""){
                     inputs[i] = input;
                 }
+
                 i++;
             }while(input != "");
 
