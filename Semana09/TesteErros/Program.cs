@@ -25,6 +25,10 @@ namespace TesteErros
                 Console.WriteLine("Ocorreu um erro desconhecido.");
                 Console.WriteLine("Problema: " + e.Message);
             }
+
+            finally{
+                Console.WriteLine("Fim do Teste de Erros");
+            }
             
 
         }
