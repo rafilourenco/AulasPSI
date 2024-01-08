@@ -12,8 +12,18 @@ namespace TesteErros
                 int i = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine($"Número inserido: {i}");
             }
-            catch (Exception e){
-                Console.WriteLine("Ocorreu o seguinte problema: " + e.Message);
+            catch(FormatException f){
+                Console.WriteLine("Não foi inserido um número inteiro.");
+                Console.WriteLine("Problema: " + f.Message);
+            }
+            catch(OverflowException o){
+                Console.WriteLine("O número inserido é demasiado grande para esta variavel.");
+                Console.WriteLine("Problema: " + o.Message);
+            }
+
+            catch(Exception e){
+                Console.WriteLine("Ocorreu um erro desconhecido.");
+                Console.WriteLine("Problema: " + e.Message);
             }
             
 
