@@ -14,9 +14,23 @@ namespace Descompressor
             string path2 = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "ficheiro.txt");
 
             int resposta = 0;
-            Console.WriteLine("Deseja comprimir ou descomprimir um ficheiro?");
-            Console.WriteLine("Pressione 1 para comprimir e 2 para descomprimir:");
-            resposta = Convert.ToInt32(Console.ReadLine());
+            bool exceptionthrow = true;
+
+            do{
+                try{
+
+                    Console.WriteLine("Deseja comprimir ou descomprimir um ficheiro?");
+                    Console.WriteLine("Pressione 1 para comprimir e 2 para descomprimir:");
+                    resposta = Convert.ToInt32(Console.ReadLine());
+                    exceptionthrow = false;
+                }
+                catch(Exception e){
+                    Console.WriteLine("Ocorreu um erro desconhecido.");
+                    Console.WriteLine("Problema: " + e.Message);
+                    exceptionthrow = true;
+                }
+            }while(exceptionthrow == true);
+            
 
             if(resposta == 1){
                 Console.WriteLine("Escolheu comprimir!");
