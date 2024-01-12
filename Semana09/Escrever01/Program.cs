@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 
 namespace Escrever01
@@ -10,7 +11,7 @@ namespace Escrever01
             string path = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "ficheiro.txt");
             int i = 0;
             string input;
-            string[] inputs = new string[10];
+            List<string> inputs = new List<string>();
 
 
             Console.WriteLine("Pronto para escrever: ");
@@ -18,7 +19,7 @@ namespace Escrever01
                 
                 input = Console.ReadLine();
                 if(input != ""){
-                    inputs[i] = input;
+                    inputs.Add(input);
                 }
 
                 i++;
