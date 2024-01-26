@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LerTexto", "LerTexto\LerTex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EscreverTexto", "EscreverTexto\EscreverTexto.csproj", "{2ECF0B22-A693-4764-BF46-76F07D8742A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OMeuJogoMVC", "OMeuJogoMVC\OMeuJogoMVC.csproj", "{ECEE0543-E9E2-4853-B4C4-80F7816735CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{2ECF0B22-A693-4764-BF46-76F07D8742A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2ECF0B22-A693-4764-BF46-76F07D8742A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2ECF0B22-A693-4764-BF46-76F07D8742A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECEE0543-E9E2-4853-B4C4-80F7816735CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECEE0543-E9E2-4853-B4C4-80F7816735CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECEE0543-E9E2-4853-B4C4-80F7816735CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECEE0543-E9E2-4853-B4C4-80F7816735CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

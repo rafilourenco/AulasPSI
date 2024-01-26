@@ -48,17 +48,16 @@ namespace Descompressor
         static void Comprime(string path){
             string line;
 
-            FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write);
-
-            GZipStream gzs = new GZipStream(fs, CompressionLevel.Optimal);
-
-            StreamWriter sw = new StreamWriter(gzs);
-
-            while ((line = Console.ReadLine()).Length > 0){
-                sw.WriteLine(line);
-            }
+            using(FileStream fs = new FileStream(path, FileMode.Create, FileAccess.Write)){
+                using(GZipStream gzs = new GZipStream(fs, CompressionLevel.Optimal)){
+                    using(StreamWriter sw = new StreamWriter(gzs)){
+                        while ((line = Console.ReadLine()).Length > 0){
+                            sw.WriteLine(line);
+                        }
+                    }
+                }
+            }          
             Console.WriteLine("Compressão Feita.");
-            sw.Close();
 
 
         }
@@ -66,23 +65,20 @@ namespace Descompressor
         
         static void Descomprime(string path, string path2){
             string line;
-            FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read);
+            using(FileStream fs = new FileStream(path, FileMode.Open, FileAccess.Read)){
+                using(GZipStream gzs = new GZipStream(fs, CompressionMode.Decompress)){
+                        using(StreamReader sr = new StreamReader(gzs))
+                        using(StreamWriter sw = new StreamWriter(path2)){
+                            while ((line = sr.ReadLine()) != null){
+                                sw.WriteLine(line);
+                                Console.WriteLine(line);
+                            }
+                        }
 
-
-            GZipStream gzs = new GZipStream(fs, CompressionMode.Decompress);
-
-            StreamWriter sw = new StreamWriter(path2);
-            StreamReader sr = new StreamReader(gzs);
-
-            
-            while ((line = sr.ReadLine()) != null){
-                sw.WriteLine(line);
-                Console.WriteLine(line);
+                }
             }
-            
-            
             Console.WriteLine("Descompressão Feita.");
-            sw.Close();
+
         }
     }
 }
