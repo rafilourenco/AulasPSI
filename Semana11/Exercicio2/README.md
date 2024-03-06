@@ -30,7 +30,10 @@
 
 ### Conceitos e Princípios:
 
-    O Modelo Hierárquico de gestão de base de dados é um modelo que organiza os dados em uma estrutura hierárquica, onde os registros são conectados em forma de árvore. Alguns dos principais conceitos, princípios e características deste modelo incluem a representação dos dados em uma estrutura de árvore, a existência de um único caminho descendente para cada registro e a utilização de ponteiros para estabelecer relações entre os dados.
+    O Modelo Hierárquico de gestão de base de dados é um modelo que organiza os dados em uma estrutura hierárquica, onde 
+    os registros são conectados em forma de árvore. Alguns dos principais conceitos, princípios e características deste 
+    modelo incluem a representação dos dados em uma estrutura de árvore, a existência de um único caminho descendente
+     para cada registro e a utilização de ponteiros para estabelecer relações entre os dados.
 
 ### Características:
 
