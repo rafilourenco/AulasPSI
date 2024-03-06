@@ -27,7 +27,8 @@
 
 ### Aplicações no mundo real:
 
-    O modelo relacional é amplamente utilizado em sistemas de gestão empresarial, sistemas bancários, sistemas de reservas online, entre outros.
+    O modelo relacional é amplamente utilizado em sistemas de gestão empresarial, sistemas bancários, sistemas de 
+    reservas online, entre outros.
 
 ## Modelo Hierárquico
 
@@ -48,7 +49,7 @@
 
 ### Aplicações no mundo real:
 
-Em aplicações onde a relação entre os dados é naturalmente hierárquica, como organizações com estruturas organizacionais bem definidas.
+    Em aplicações onde a relação entre os dados é naturalmente hierárquica, como organizações com estruturas organizacionais bem definidas.
 
 ## Modelo de Rede
 
