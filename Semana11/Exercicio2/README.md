@@ -4,7 +4,10 @@
 
 ### Conceitos e Princípios:
 
-    O modelo relacional de gestão de base de dados é fundamentado na teoria de conjuntos e lógica, sendo amplamente utilizado em sistemas de gestão de bases de dados (SGBD). Algumas características principais deste modelo incluem a capacidade de controlar os dados de forma escalável, manter a consistência dos dados entre aplicações e instâncias do banco de dados, e estruturar informações em tabelas, linhas e colunas.
+    O modelo relacional de gestão de base de dados é fundamentado na teoria de conjuntos e lógica, sendo amplamente 
+    utilizado em sistemas de gestão de bases de dados (SGBD). Algumas características principais deste modelo incluem a
+     capacidade de controlar os dados de forma escalável, manter a consistência dos dados entre aplicações e instâncias
+     do banco de dados, e estruturar informações em tabelas, linhas e colunas.
 
     É baseado no conceito de relação, onde uma relação é uma tabela de valores.
     Uma tabela de valores pode ser vista como um conjunto de linhas ou tuplos.
@@ -51,7 +54,10 @@ Em aplicações onde a relação entre os dados é naturalmente hierárquica, co
 
 ### Conceitos e Princípios:
 
-    O Modelo de Rede na gestão de base de dados é uma estrutura que permite representar relações complexas entre os dados, utilizando um formato de grafo. Alguns dos principais conceitos, princípios e características deste modelo incluem a capacidade de estabelecer múltiplas relações entre os registros, a utilização de ponteiros para navegar entre os dados e a representação dos dados em forma de grafo.
+    O Modelo de Rede na gestão de base de dados é uma estrutura que permite representar relações complexas entre os 
+    dados, utilizando um formato de grafo. Alguns dos principais conceitos, princípios e características deste modelo 
+    incluem a capacidade de estabelecer múltiplas relações entre os registros, a utilização de ponteiros para navegar 
+    entre os dados e a representação dos dados em forma de grafo.
 
 ### Características:
 
