@@ -9,7 +9,6 @@
     Cada tuplo é identificado por um conjunto de colunas ou atributos.
     Uma base de dados é representada como um conjunto de relações.
 
-    ![image](https://github.com/rafilourenco/AulasPSI/assets/145566372/288ba372-d0d9-4e43-964c-3db8b93e9c8d)
 
 ### Características:
 
